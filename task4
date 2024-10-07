@@ -1,0 +1,16 @@
+list0 = int(input("How many do you want to add the list: "))
+list_array = []
+
+for data in range(list0):
+    list1 = int(input("what numbers do you want to add the list : "))
+    list_array.append(list1)
+    print ("Your list are :",list_array)
+
+
+ok = input ("Would you like to sort or reverse the list: ")
+if ok == "sort":
+    list_array.sort()
+elif ok == "reverse":
+    list_array.reverse()
+    
+print(list_array) 

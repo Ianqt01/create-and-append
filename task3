@@ -1,0 +1,21 @@
+list0 = int(input("How many do you want to add the list: "))
+list_array = []
+
+for data in range(list0):
+    list1 = int(input("what numbers do you want to add the list : "))
+    list_array.append(list1)
+    print ("Your list are :",list_array)
+    
+    
+removal = input ("Would you like to remove an element by index or value : ")
+    
+if removal == "index":
+        print (list_array)
+        index = int(input("which index? : "))
+        list_array.pop(index)
+elif removal == "value":
+        print (list_array)
+        value = input("Which value do you want to remove :")
+        list_array.remove(value)
+        
+print(list_array)

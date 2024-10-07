@@ -1,0 +1,8 @@
+numbers = int(input("How many numbers do you want to add the list : "))
+num = []
+
+for data in range(numbers):
+    number1 = int(input("what numbers do you want to add the list : "))
+    num.append(number1)
+    print ("Your numbers are :",num)
+ 
